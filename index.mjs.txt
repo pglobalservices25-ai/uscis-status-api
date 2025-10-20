@@ -94,3 +94,4 @@ app.get("/status", async (req, res) => {
 app.get("/health", (req, res) => res.json({ ok: true, time: new Date().toISOString() }));
 
 app.listen(PORT, () => console.log(`USCIS status API running on :${PORT}`));
+
